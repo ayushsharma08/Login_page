@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Login{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+    margin: auto ;
+    height:100vh;
+    max-width: 650px;
+    background-color: whitesmoke;
+    display: flex;
+  
+}
+
+.container .left {
+    flex: 0.5;
+
+
+}
+
+.container .right {
+    flex: 0.5;
+    background: url('./img/LoginPage.jpg') no-repeat center/cover;
+position: relative;
+left:0px;
+}
+
+.container .right:hover {
+    flex: 0.5;
+    background: url('./img/LoginPage.jpg') no-repeat center center/cover;
+    filter:blur(5px);
+}
+
+
+a.rightbtn {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 4px 6px;
+    font-weight: 30px;
+   
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 0;
+}
+
+.Form {
+    margin-top: 30px
+}
+
+.Form .content {
+    text-align: start;
+}
+
+.Form .content>input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+
+}
+
+::placeholder {
+    color: gray;
+    font-weight: 200px;
+    font-size: medium
+}
+
+.Form .content>.text {
+    font-weight: 700;
+
+}
+
+a.leftbtn {
+    background-color: rgb(245, 235, 235);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 4px 6px;
+
+}
+
+.terms {
+    margin: 30px 0;
+}
+
+.btn-primary {
+    background-color: rgb(255, 106, 0);
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    color:white
+}
+input:focus {
+    outline-width: 0;
+}
